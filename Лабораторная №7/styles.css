@@ -1,0 +1,25 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover img.image-1 {
+    transform: scale(0.5);
+  }
+  
+  .image-container:hover img.image-2 {
+    transform: rotate(45deg);
+  }
+  
+  .image-container:hover img.image-3 {
+    transform: translateX(50px);
+  }
+  
+  .image-container:hover img.image-4 {
+    transform: skewY(-20deg);
+  }

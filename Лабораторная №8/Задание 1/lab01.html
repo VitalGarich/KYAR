@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Навигация</title>
+        <style>
+           aside {
+      float: right;
+      width: 200px;
+      background-color: #f2f2f2;
+      padding: 10px;
+    }
+    section {
+      margin-right: 220px;
+      padding: 20px;
+    }
+            
+            ul.nav a {
+            display: block;
+            text-decoration: none;
+            }
+            ul.nav a.z1{
+                color: red;
+            }
+            ul.nav a.z2:visited {
+            color: #8B0000; 
+            }
+            ul.nav a.z3:hover{
+                color: green;
+            }
+            ul.nav a.z4:active{
+                color: rgb(184, 134, 11);
+            }
+        </style>
+    </head>
+    <body>
+        <aside>
+        <ul class="nav">
+            <li><a class="z1" href="foot.html" target="_blank">Первая страница(Лаб. раб №1, задание 5)</a></li>
+            <li><a class="z2" href="index.html" target="_blank">Вторая страница(Лаб. раб. №2, задание 4)</a></li>
+            <li><a class="z3" href="text.html" target="_blank">Третья страница(Лаб. раб №3, задание 1-4)</a></li>
+            <li><a class="z4" href="block.html" target="_blank">Четвёртая страница(Лаб. раб №4, задание с блоком)</a></li>
+            </ul>
+        </aside>
+        <section>
+            <p>Для форматирования гиперссылок используются
+            псевдоклассы, учитывающие их состояние:</p>
+            <p>1. :link — непосещенная ссылка;</p>
+            <p>2. :visited — посещенная ссылка;</p>
+            <p>3. :hover — ссылка, на которой находится указатель;</p>
+            <p>4. :active — ссылка в момент нажатия.</p>
+            <p>5. :focus — состояние ссылки при нажатии клавиши Tab.</p>
+            <p>Чтобы убрать стандартное подчеркивание используется
+            свойство text-decoration cо значением none.</p>
+        </section>
+    </body>
+</html>

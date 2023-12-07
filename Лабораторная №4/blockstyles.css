@@ -1,0 +1,71 @@
+/* Задаем границы для первого элемента p на странице */
+p:nth-of-type(1) {
+    border-left: solid brown; /* левая граница коричневая */
+    border-bottom: solid yellow; /* нижняя граница желтая */
+    border-right: solid darkblue; /* правая граница темно-синяя */
+    border-top: solid orange; /* верхняя граница оранжевая */
+}
+
+
+p:nth-of-type(2) {
+    border-left: solid #007BA7; 
+    border-right: solid #007BA7; 
+}
+
+
+p:nth-of-type(3) {
+    border-top: solid rgb(229, 43, 80);
+    border-left: dotted blue;
+    border-right: dotted blue;
+    border-bottom: dotted blue; 
+}
+
+
+p:nth-of-type(4) {
+    border-left: dotted orange;
+    border-right: dotted orange; 
+    border-bottom: dotted orange;
+    border-top: dotted orange; 
+}
+
+
+p:nth-of-type(5) {
+    border-top: solid darkblue 2px;
+    border-bottom: solid darkblue 2px;
+    border-left: dotted #800000; 
+    border-right: dotted #800000;
+}
+
+
+p:nth-of-type(6) {
+    border-top: double #B3446C ;
+    border-left: double #B3446C;
+    border-right: double #B3446C;
+    border-bottom: double #B3446C;
+}
+
+
+p:nth-of-type(7) {
+    border-top: dotted #808000 1px; 
+    border-bottom: solid #FF7518 3px; 
+}
+
+
+p:nth-of-type(8) {
+    border-left: double #CC7722 ; 
+    border-bottom: double #CC7722; 
+}
+
+
+p:nth-of-type(9) {
+    border-right: inset #B5A642; 
+    border-top: inset #B5A642; 
+}
+
+
+p:nth-of-type(10) {
+    border-left: dotted rgb(0, 40, 0) 5px;
+    border-right: dotted rgb(0, 40, 0) 5px; 
+    border-bottom: dotted rgb(0, 40, 0) 5px; 
+    border-top: none 5px; 
+}

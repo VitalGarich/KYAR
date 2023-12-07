@@ -1,0 +1,17 @@
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 0;
+    border: 1px solid black;
+    text-align: center;
+}
+
+tr:first-child {
+    background-color: red;
+  }
+
+  td:nth-child(1) {
+    background-color: blue;
+  }

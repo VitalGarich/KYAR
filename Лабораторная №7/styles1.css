@@ -1,0 +1,29 @@
+.image-container {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+  }
+
+  .image-container img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-container:hover img.image-1 {
+    transform: rotateX(60deg);
+    perspective: 1000px;
+  }
+  
+  .image-container:hover img.image-2 {
+    transform: rotateY(60deg);
+    perspective: 1000px;
+  }
+  
+  .image-container:hover img.image-3 {
+    transform: rotateX(60deg);
+    perspective: 1000px;
+  }
+  
+  .image-container:hover img.image-4 {
+    perspective: 1000px;
+    transform: rotateY(-60deg);
+  }

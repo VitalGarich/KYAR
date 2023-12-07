@@ -1,0 +1,70 @@
+h1 {
+    text-align: center;
+    color: #FF0000; 
+    font-family: Arial, sans-serif; 
+    font-style: italic; 
+}
+h2 {
+    font-family: Times New Roman, serif; 
+    font-size: 20px; 
+}
+h3 {
+    font-family: Verdana, sans-serif; 
+    color: #0000FF; 
+}
+span {
+    background-color: rgb(67, 163, 147); 
+}
+ul {
+ background-image: url(https://media.giphy.com/media/TdoiN7rZuGDJPs2rAS/giphy.gif);
+ background-size: 40px 40px;
+ background-repeat: no-repeat;
+
+}
+body {
+  background-image: url(https://www.belhard.com/ru/wp-content/uploads/2015/05/it_bstu.jpg);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-attachment: fixed;
+  background-size: 100px 100px;
+}
+
+p {
+    margin: 0;
+    text-indent: 2em;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+
+  .first-container,
+  .second-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+  }
+
+  .text {
+    width: 300px; 
+    height: 250px;
+    background-color: #f2f2f2;
+    margin: 5px;
+  }
+
+  .image {
+    max-width: 600px; 
+    margin: 5px;
+  }
+
+  .image img {
+    height: 270px; 
+    width: 300px; 
+  }

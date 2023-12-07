@@ -1,0 +1,123 @@
+/* Первая часть */
+
+/* Задаем свойства для контейнера */
+.container {
+    display: flex; /* используем flexbox для расположения элементов */
+    margin-top: 20px; /* задаем отступ сверху */
+    margin-bottom: 20px;
+}
+
+/* Задаем свойства для блоков */
+.box {
+    width: 100px; /* задаем ширину блока */
+    height: 100px; /* задаем высоту блока */
+    margin-right: 10px; /* задаем отступ справа */
+    border-width: 10px; /* задаем толщину границы */
+    border-style: outset; /* задаем стиль границы */
+    border-color: red; /* задаем цвет границы */
+    text-align: center; /* выравниваем содержимое по центру */
+    align-items: center; /* выравниваем элементы по центру */
+    font-size: 50px; /* задаем размер шрифта */
+}
+
+/* Задаем свойства для второго блока */
+.box:nth-child(2) {
+    border-width: 10px; /* задаем толщину границы */
+    border-color: rgb(0, 252, 0); /* задаем цвет границы */
+    border-style: dashed; /* задаем стиль границы */
+}
+
+/* Задаем свойства для третьего блока */
+.box:nth-child(3) {
+    border-width: 10px; /* задаем толщину границы */
+    border-color: blue; /* задаем цвет границы */
+    border-style: dotted; /* задаем стиль границы */
+}
+
+/* Задаем свойства для четвертого блока */
+.box:nth-child(4) {
+    border-width: 10px; /* задаем толщину границы */
+    border-style: double; /* задаем стиль границы */
+    border-color: cyan; /* задаем цвет границы */
+}
+
+/* Задаем свойства для пятого блока */
+.box:nth-child(5) {
+    border-width: 10px; /* задаем толщину границы */
+    border-color: rgb(254, 0, 254); /* задаем цвет границы */
+    border-style: groove; /* задаем стиль границы */
+}
+
+/* Задаем свойства для шестого блока */
+.box:nth-child(6) {
+    border-width: 10px; /* задаем толщину границы */
+    border-style: inset; /* задаем стиль границы */
+    border-color: yellow; /* задаем цвет границы */
+}
+
+/* Задаем свойства для седьмого блока */
+.box:nth-child(7) {
+    border-width: 10px; /* задаем толщину границы */
+    border-color: black; /* задаем цвет границы */
+    border-style: solid; /* задаем стиль границы */
+    margin-right: 0; /* убираем отступ справа */
+}
+
+/* Задаем свойства для текста внутри блока */
+.box span {
+    line-height: 100px; /* задаем высоту строки, чтобы текст был по центру */
+}
+
+/* Вторая часть */
+
+/* Задаем свойства для абзацев */
+p {
+    margin-bottom: 20px; /* добавляем интервал между абзацами */
+}
+
+/* Задаем свойства для первого абзаца */
+p:nth-of-type(1){
+    width: 400px; /* задаем ширину */
+    margin: 0 auto; /* выравниваем по центру */
+    border: 5px solid #FF7F50; /* задаем толщину и цвет границы */
+}
+
+/* Задаем свойства для второго абзаца */
+p:nth-of-type(2) {
+    border: 5px solid #FF4500; /* задаем толщину и цвет границы */
+    border-radius: 20px 40px; /* задаем радиус скругления углов */
+    box-shadow: 2px 2px 8px 8px rgba(0, 0, 0, 0.5); /* задаем тень */
+    overflow: auto; /* добавляем полосы прокрутки, если содержимое не помещается */
+}
+
+/* Задаем свойства для третьего абзаца */
+p:nth-of-type(3) {
+    border: 5px solid #FF6347; 
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.5);
+    width: auto; 
+    margin: auto; 
+    text-align: center; 
+}
+
+/* Задаем свойства для текста внутри абзаца */
+p span {
+    display: block; /* задаем блочный тип элемента */
+    background-color: #FFA500; 
+    padding: 5px; 
+    margin: 5px; 
+    border: 1px solid #FF4500; 
+}
+/* Задаем свойства для первого span */
+p:nth-of-type(1) span {
+    display: block;
+}
+
+/* Задаем свойства для второго span */
+p:nth-of-type(2) span {
+    display: block;
+}
+
+/* Задаем свойства для третьего span */
+p:nth-of-type(3) span {
+    display: block;
+}

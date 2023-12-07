@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .color-transition {
+      width: 300px;
+      height: 300px;
+      background-color: #3498db;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: color 5s linear;
+    }
+
+    .color-transition:hover {
+      color: #e74c3c;
+    }
+
+    h1 {
+  opacity: 0;
+  animation: fadeInOut 5s infinite alternate;
+}
+
+@keyframes fadeInOut {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 0.8;
+  }
+
+    }
+  </style>
+  <title>Smooth Color Transition</title>
+</head>
+<body>
+<h1>А Я ЧУМАЧЕЧИЙ</h1>
+<div class="color-transition">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sit amet metus ac lectus feugiat malesuada. Integer ut quam vel ligula aliquet malesuada. Sed tincidunt justo et semper posuere. Proin vel elit ac nulla fermentum facilisis. Fusce condimentum, velit vel accumsan fringilla, odio turpis cursus leo, eu pellentesque mi lectus vitae libero. Nulla facilisi. Curabitur quis urna a elit iaculis cursus ut ut turpis. Etiam fermentum, mi vel imperdiet elementum, justo metus scelerisque nisi, non viverra odio nulla non tellus..</p>
+</div>
+
+</body>
+</html>

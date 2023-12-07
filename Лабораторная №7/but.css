@@ -1,0 +1,46 @@
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  .button-1:hover {
+    background-color: black;
+    color: white;
+    border: none;
+  }
+  
+  .button-2:hover {
+    border-color: red;
+
+  }
+  
+  .text2:hover {
+    border: solid blueviolet 2px;
+
+  }
+  
+  .button-3:hover {
+    border-top: solid blue;
+    border-bottom: solid blue;
+    border-left: solid white;
+    border-right: solid white;
+    border-radius: 0;
+  }
+  
+
+   .button-4:hover {
+    border-top: none;
+    border-bottom: none;
+    border-left: solid aqua 1px;
+    border-right: solid aqua 1px;
+
+  }
+
+  .button-5:hover {
+    background: radial-gradient(circle, red, orange, yellow, green, blue, indigo, violet);
+    color: black;
+    border: none;
+  }
+  
+ 

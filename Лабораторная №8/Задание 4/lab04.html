@@ -1,0 +1,53 @@
+<!DOCTYPE html> 
+<html> 
+    <head> 
+        <meta charset="utf-8"> 
+        <title>Задание 4</title> 
+        <style> 
+            .second li{ 
+                width: 200px; 
+                list-style: none; 
+                position: relative;  
+                float: left; 
+            } 
+            .second a{ 
+                text-decoration: none; 
+                display: block; 
+                text-align: center; 
+                border: 1px solid black; 
+                margin: 5px; 
+                padding: 6px; 
+                color: black; 
+            } 
+            .second ul{ 
+                position: absolute; 
+                display: none; 
+                padding: 0; 
+            } 
+            .second li:hover ul{ 
+                display: block; 
+            } 
+            a {background: url(facultet.png) no-repeat 0 0;} 
+            .nav li a {background: url(facultet.png) no-repeat 0 0;} 
+            .nav .it a:hover {background-position: 0 -30px;}  
+            .nav .pim a:hover {background-position: 0 -90px;}  
+            .nav .xtit a:hover {background-position: 0 -60px;} 
+        </style> 
+    </head> 
+    <body> 
+        <nav class="nav"> 
+            <ul class="second"> 
+                <li><a href="https://www.belstu.by/">БГТУ</a></li> 
+                <li class="it"><a href="https://it.belstu.by/">ИТ</a> 
+                <ul> 
+                    <li><a href="https://isit.belstu.by/">Кафедра ИСиТ</a></li> 
+                    <li><a href="https://belstu.by/fakultety/fit/ivd/">Кафедра ИиВД</a></li> 
+                    <li><a href="https://belstu.by/fakultety/fit/pi/">Кафедра ПИ</a></li>      
+                </ul> 
+                </li>           
+                <li class="pim"> <a href="https://pim.belstu.by/">ПиМ</a></li> 
+                <li class="xtit"> <a href="http://htit.muzklip.com/">ХТиТ</a></li> 
+            </ul> 
+        </nav> 
+    </body> 
+</html>

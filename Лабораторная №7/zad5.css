@@ -1,0 +1,86 @@
+
+@keyframes imageAnimation1 {
+    0% { opacity: 0; }
+    20% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+@keyframes imageAnimation2 {
+    0% { opacity: 0; }
+    20% { opacity: 0; }
+    25% { opacity: 1; }
+    45% { opacity: 1; }
+    55% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes imageAnimation3 {
+    0% { opacity: 0; }
+    40% { opacity: 0; }
+    45% { opacity: 1; }
+    65% { opacity: 1; }
+    75% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes imageAnimation4 {
+    0% { opacity: 0; }
+    60% { opacity: 0; }
+    65% { opacity: 1; }
+    85% { opacity: 1; }
+    95% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes imageAnimation5 {
+    0% { opacity: 0; }
+    80% { opacity: 0; }
+    85% { opacity: 1; }
+    100% { opacity: 1; }
+}
+
+.container {
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 5px solid #FF0000; /* Замените #FF0000 на желаемый цвет границы */
+    overflow: hidden;
+}
+
+.container img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+.container img:nth-child(1) {
+    animation: imageAnimation1 5s linear infinite;
+    animation-delay: 0s;
+    z-index: 1;
+}
+
+.container img:nth-child(2) {
+    animation: imageAnimation2 5s linear infinite;
+    animation-delay: 1s;
+    z-index: 2;
+}
+
+.container img:nth-child(3) {
+    animation: imageAnimation3 5s linear infinite;
+    animation-delay: 2s;
+    z-index: 3;
+}
+
+.container img:nth-child(4) {
+    animation: imageAnimation4 5s linear infinite;
+    animation-delay: 3s;
+    z-index: 4;
+}
+
+.container img:nth-child(5) {
+    animation: imageAnimation5 5s linear infinite;
+    animation-delay: 4s;
+    z-index: 5;
+}
