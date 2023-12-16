@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Задание 3.2</title>
+            <meta charset="utf-8">
+            <style>
+                .grid{
+                    
+                    display: grid;
+                    grid-template-areas:
+                        "one one one"
+                        "two three four"
+                        "two three four"
+                        "five five five";
+                    gap: 5px;
+                    grid-template-columns: 70px 270px 130px;
+                    grid-template-rows: 60px 180px 70px 50px;
+                }
+                .grid>div{
+                    background-color: beige;
+                    border: 0;
+                }
+                .one {
+                    grid-area: one;
+                    text-align: center;    
+                }
+                .two {
+                    grid-area: two;
+                }
+                .three {
+                    grid-area: three;
+                }
+                .four {
+                    grid-area: four;
+                    text-align: center;
+                }
+                .five{
+                    grid-area: five;
+                    text-align: center;
+                }
+            </style>
+        </head>
+    <body>
+        <div class="grid">
+            <div class="one">header</div>
+            <div class="two">Ячейка1</div>
+            <div class="three">Ячейка2</div>
+            <div class="four">Ячейка3</div>
+            <div class="five">footer</div>
+        </div>
+    </body>
+</html>

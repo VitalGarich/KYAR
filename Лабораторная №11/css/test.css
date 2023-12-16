@@ -1,0 +1,135 @@
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  background-color: #896262;
+  color: white;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px;
+  height: 100px;
+}
+header img {
+  width: 110px;
+  height: auto;
+  margin-left: 10px;
+}
+header nav {
+  min-width: 80%;
+  display: flex;
+  justify-content: center;
+}
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+header nav ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+header nav ul li a:hover {
+  color: #999;
+}
+
+main {
+  display: flex;
+  margin: 10px;
+}
+main #leftSide {
+  flex: 4;
+}
+main #leftSide h2 {
+  font-size: 32px;
+  text-align: center;
+}
+main .blocks {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+main .blocks div {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main .blocks img {
+  width: 120px;
+  height: 120px;
+}
+main #rightSide {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+main #rightSide .blocks {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+main #rightSide .blocks div {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+main #rightSide .blocks div img {
+  width: 60px;
+  height: 60px;
+}
+main #rightSide form {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+main #rightSide form input[type=text] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  width: 100%;
+}
+main #rightSide form input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+}
+
+
+main #rightSide form input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+footer {
+  margin: 10px;
+  background-color: #000;
+  color: #fff;
+  padding: 20px;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  bottom: 0;
+}

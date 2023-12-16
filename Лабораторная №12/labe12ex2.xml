@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="styles12.css"?>
+<!DOCTYPE students [
+<!ELEMENT students (example*, student*)>
+<!ELEMENT example (euniversity, ename, esurname, eage)>
+<!ATTLIST example count CDATA "3">
+<!ELEMENT student (university, name, surname, age)>
+<!ELEMENT euniversity (#PCDATA)>
+<!ELEMENT ename (#PCDATA)>
+<!ELEMENT esurname (#PCDATA)>
+<!ELEMENT eage (#PCDATA)>
+<!ELEMENT university (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT surname (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ENTITY enamed "~">
+]>
+<students>
+    <example count="3">
+        <euniversity>&enamed;Университет&enamed;</euniversity>
+        <ename>&enamed;Имя&enamed;</ename>
+        <esurname>&enamed;Фамилия&enamed;</esurname>
+        <eage>&enamed;Возраст&enamed;</eage>
+    </example>
+    <student>
+        <university>БГТУ</university>
+        <name>Валентин</name>
+        <surname>Вольский</surname>
+        <age>17</age>
+    </student>
+    <student>
+        <university>БГТУ</university>
+        <name>Никита</name>
+        <surname>Бернович</surname>
+        <age>18</age>
+    </student>
+    <student>
+        <university>БГТУ</university>
+        <name>Максим</name>
+        <surname>Юхневич</surname>
+        <age>17</age>
+    </student>
+</students>

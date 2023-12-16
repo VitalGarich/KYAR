@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="styles12.css"?>
+<students xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="forEx3.xsd">
+    <example>
+        <euniversity>Университет</euniversity>
+        <ename>Имя</ename>
+        <esurname>Фамилия</esurname>
+        <eage>Возраст</eage>
+    </example>
+    <student>
+        <university>БГТУ</university>
+        <name>Александр</name>
+        <surname>Кузьмич</surname>
+        <age>17</age>
+    </student>
+    <student>
+        <university>БГТУ</university>
+        <name>Никита</name>
+        <surname>Борисов</surname>
+        <age>17</age>
+    </student>
+    <student>
+        <university>БГТУ</university>
+        <name>Алексей</name>
+        <surname>Заяц</surname>
+        <age>17</age>
+    </student>
+</students>

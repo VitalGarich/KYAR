@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml-stylesheet type="text/css" href="styles12.css"?>
+<students>
+    <example count="3">
+        <euniversity>Университет</euniversity>
+        <ename>Имя</ename>
+        <esurname>Фамилия</esurname>
+        <eage>Возраст</eage>
+    </example>
+    <student>
+        <university>БГТУ</university>
+        <name>Александр</name>
+        <surname>Кузьмич</surname>
+        <age>17</age>
+    </student>
+    <student>
+        <university>БГТУ</university>
+        <name>Никита</name>
+        <surname>Борисов</surname>
+        <age>17</age></student>
+    <student>
+        <university>БГТУ</university>
+        <name>Алексей</name>
+        <surname>Заяц</surname>
+        <age>17</age></student>
+</students>

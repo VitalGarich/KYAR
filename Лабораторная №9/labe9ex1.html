@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Задание 1</title>
+        <style>
+            .div1 {
+                margin: 15px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 15px;
+                float: left;
+                width: 30%;
+            }
+            .box1 {
+                grid-column: 1/2;
+                justify-self:end;
+                writing-mode: vertical-lr; 
+                text-orientation: upright;
+                border: 2px solid black;
+                text-align: center;
+            }
+            .box2 {
+                grid-column: 2/3;
+                border: 2px solid black;
+                text-align: center;
+            }
+            .box3 {
+                grid-column: 3/4;
+                border: 2px solid black;
+                text-align: center;
+            }
+            .div2 {
+                margin: 15px;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                grid-gap: 15px;
+                float: left;
+                width: 30%;
+            }
+            .box4 {  
+                grid-column: 1/2;
+                grid-row: 1/3;
+                border: 2px solid black;
+                text-align: center;
+            }
+            .box5 {
+                grid-column: 2/3;
+                grid-row: 1/2;
+                border: 2px solid black;
+                text-align: center;
+            }
+            .box6 {
+                grid-column: 2/3;
+                grid-row: 2/3;
+                border: 2px solid black;
+                text-align: center;
+            }
+            .box7 {
+                grid-column: 3/4;
+                justify-self: start;
+                grid-row: 1/3;
+                writing-mode: vertical-lr; 
+                text-orientation: upright;
+                border: 2px solid black;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="div1">
+            <div class="box box1">Заголовок</div>
+            <div class="box box2">Ячейка1</div>
+            <div class="box box3">Ячейка2</div>
+        </div>
+        <div class="div2">
+            <div class="box box4">Ячейка1</div>
+            <div class="box box5">Ячейка2</div>
+            <div class="box box6">Ячейка3</div>
+            <div class="box box7">Заголовок</div>
+        </div>
+    </body>
+</html>
